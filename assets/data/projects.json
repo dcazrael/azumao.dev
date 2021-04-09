@@ -1,0 +1,101 @@
+[
+  {
+    "working on": [
+      {
+        "name": "Into the Abyss - Dungeon crawler",
+        "highlights": [
+          "2D Graphics",
+          "Dynamic Dungeon generation",
+          "Inventory System"
+        ],
+        "image": "into-the-abyss",
+        "github": "into-the-abyss",
+        "live": "",
+        "tech": ["JavaScript", "HTML5", "React", "TailwindCSS"],
+        "api": ["Phaser.js"]
+      }
+    ]
+  },
+  {
+    "completed": [
+      {
+        "name": "Nutrifoods - Know what you eat",
+        "highlights": [
+          "Check your foods nutrients",
+          "Search for recipes by ingredients",
+          "Use natural language in your queries"
+        ],
+        "image": "nutrifoods",
+        "github": "nutrifoods",
+        "live": "http://nutrix.tk",
+        "tech": ["Python", "React", "TailwindCSS"],
+        "api": ["Nutrionix", "Spoonacular"]
+      },
+      {
+        "name": "Done and done! TodoApp",
+        "highlights": [
+          "Simple todo app using local storage",
+          "Drag'n'drop for items"
+        ],
+        "image": "todo",
+        "github": "todo-app",
+        "live": "https://todo-app-three-rust.vercel.app/",
+        "tech": ["Nextjs", "TailwindCSS"],
+        "api": []
+      },
+      {
+        "name": "Roguelike in JS",
+        "highlights": [
+          "Dynamic level generation",
+          "Inventory system",
+          "Increasing difficulty per level"
+        ],
+        "image": "jsRogueLike",
+        "github": "jsRogueLike",
+        "live": "https://dcazrael.github.io/jsRogueLike/",
+        "tech": ["JavaScript", "HTML5"],
+        "api": []
+      },
+      {
+        "name": "Rock, Paper, Scissors - Dualmode",
+        "highlights": ["Two game modes"],
+        "image": "rock-paper-scissors",
+        "github": "rps",
+        "live": "https://rps-psi.vercel.app/",
+        "tech": ["Nextjs", "TailwindCSS"],
+        "api": []
+      },
+      {
+        "name": "Darkmode toggle for Next.js/TailwindCSS",
+        "highlights": ["npm package", "easy to implement"],
+        "image": "next-tailwind-darkmode",
+        "github": "tailwind-darkmode-toggle",
+        "live": "https://tailwind-darkmode-toggle-dcazrael.vercel.app/",
+        "tech": ["JavaScript", "TailwindCSS"],
+        "api": []
+      },
+      {
+        "name": "Block Buster",
+        "highlights": ["20 levels", "random colors"],
+        "image": "block-buster",
+        "github": "blockbuster",
+        "live": "https://blockbuster.vercel.app/",
+        "tech": ["JavaScript", "HTML5"],
+        "api": []
+      },
+      {
+        "name": "AHK libraries",
+        "highlights": [
+          "Extended Arrays and Objects",
+          "String as Objects",
+          "CSV library"
+        ],
+        "image": "autohotkey-libraries",
+        "github": "autohotkey_libraries",
+        "live": "",
+        "tech": ["autohotkey"],
+        "api": []
+      }
+    ]
+  }
+]

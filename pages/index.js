@@ -1,31 +1,45 @@
 import Head from 'next/head';
-import { DarkModeToggle } from 'tailwind-darkmode-toggle';
+import ClipPath from '../assets/images/ClipPath.svg';
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
+import Portfolio from '../components/Portfolio';
 
 export default function Home() {
   return (
-    <div>
+    <div className='font-montserrat'>
       <Head>
-        <title>Create Next App</title>
-        <link rel='icon' href='/favicon.ico' />
+        <title>Azumao.dev - Let's buld something amazing!</title>
+        <link rel='icon' href='/favicon.png' />
       </Head>
-      <header className='container flex justify-between py-12 mx-auto'>
-        <h1 className='text-4xl text-gray-800 dark:text-gray-300'>
-          Welcome to <a href='https://nextjs.org'>Next.js!</a>
-        </h1>
-        <DarkModeToggle className='w-10 h-10 text-gray-800 dark:text-gray-300' />
+      <Navbar />
+      <header className='w-full bg-cover bg-hero-backdrop min-h-120'>
+        <Hero />
       </header>
 
-      <main className='container mx-auto'>
-        <h2 className='text-xl text-gray-800 dark:text-gray-300'>
-          This app is bootstrapped with TailwindCSS and has dark mode enabled
-        </h2>
+      <main className='w-full'>
+        <About />
+        <div className='bg-indigo-400 dark:bg-indigo-900'>
+          <Portfolio />
+        </div>
+        <Contact />
       </main>
 
-      <footer className='container mx-auto'>
-        <p className='text-gray-800 dark:text-gray-300'>
-          &copy; Michael Sachdev
+      <footer className='container p-8 mx-auto'>
+        <p className='text-center text-gray-800 dark:text-gray-300'>
+          <a
+            className='font-medium hover:text-purple-700 dark:hover:text-indigo-400'
+            href='https://github.com/dcazrael'
+            target='_blank'
+            rel='norefer'
+          >
+            &copy; Michael Sachdev
+          </a>
         </p>
       </footer>
+
+      <ClipPath className='w-0 h-0' />
     </div>
   );
 }

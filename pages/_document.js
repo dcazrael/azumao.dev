@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta charSet='UTF-8' />
           <ThemeScriptTag />
         </Head>
-        <body className='bg-gray-300 dark:bg-gray-800'>
+        <body className='transition-colors duration-500 bg-gray-300 dark:bg-gray-800'>
           <Main />
           <NextScript />
         </body>

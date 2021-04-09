@@ -20,16 +20,16 @@ export default function Home() {
 
       <main className='w-full'>
         <About />
-        <div className='bg-indigo-400 dark:bg-indigo-900'>
+        <div className='transition-colors duration-500 bg-indigo-400 dark:bg-indigo-900 '>
           <Portfolio />
         </div>
         <Contact />
       </main>
 
       <footer className='container p-8 mx-auto'>
-        <p className='text-center text-gray-800 dark:text-gray-300'>
+        <p className='text-center text-gray-800 transition-colors duration-500 dark:text-gray-300 '>
           <a
-            className='font-medium hover:text-purple-700 dark:hover:text-indigo-400'
+            className='font-medium transition-colors duration-500 hover:text-purple-700 dark:hover:text-indigo-400 '
             href='https://github.com/dcazrael'
             target='_blank'
             rel='norefer'

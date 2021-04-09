@@ -20,7 +20,11 @@ const Navbar = () => {
   return (
     <div className='sticky top-0 z-50 w-full -mb-20 transition-all navbar'>
       <div className='container flex items-center justify-between py-4 mx-auto text-lg text-indigo-100'>
-        <Logo className='w-auto h-10 text-indigo-100 fill-current' />
+        <Link href='https://azumao.dev'>
+          <a>
+            <Logo className='w-auto h-10 text-indigo-100 pointer-events-none fill-current' />
+          </a>
+        </Link>
         <nav className='flex items-center ml-auto mr-10 space-x-4'>
           <Link href='#home'>
             <a className='capitalize'>home</a>

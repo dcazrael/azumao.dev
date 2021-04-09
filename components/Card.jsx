@@ -2,7 +2,7 @@ import ShadowButton from './ShadowButton';
 
 const Card = ({ children, title, image, github, link, tech, api }) => {
   return (
-    <div className='flex flex-col bg-indigo-100 shadow-lg dark:bg-gray-800 rounded-br-3xl'>
+    <div className='flex flex-col transition-colors duration-500 bg-indigo-100 shadow-lg dark:bg-gray-800 rounded-br-3xl'>
       <div className='relative flex flex-col w-full h-56'>
         <figure className='absolute inset-0 z-10'>
           <img

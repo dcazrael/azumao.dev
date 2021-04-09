@@ -2,7 +2,7 @@ import Collab from '../assets/images/undraw_Live_collaboration.svg';
 
 const About = () => {
   return (
-    <div className='container flex items-center py-20 mx-auto space-x-32 text-gray-800 dark:text-gray-300'>
+    <div className='container flex items-center py-20 mx-auto space-x-32 text-gray-800 transition-colors duration-500 dark:text-gray-300'>
       <div className='w-1/2 text-lg'>
         <h2 className='text-3xl italic font-medium font-expletus' id='about'>
           Tell me about your new idea
@@ -41,7 +41,7 @@ const About = () => {
         <p className='mt-6'>
           Connect with me on{' '}
           <a
-            className='font-bold text-purple-700 dark:text-indigo-400 hover:underline'
+            className='font-bold text-purple-700 transition-colors duration-500 dark:text-indigo-400 hover:underline '
             href='https://www.linkedin.com/in/michael-sachdev/'
             target='_blank'
             rel='norefer'
@@ -50,7 +50,7 @@ const About = () => {
           </a>{' '}
           and{' '}
           <a
-            className='font-bold text-purple-700 dark:text-indigo-400 hover:underline'
+            className='font-bold text-purple-700 transition-colors duration-500 dark:text-indigo-400 hover:underline '
             href='https://github.com/dcazrael'
             target='_blank'
             rel='norefer'

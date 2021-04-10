@@ -6,7 +6,7 @@ const ShadowButton = ({ link, github }) => {
         href={link}
         target='_blank'
         rel='noreferrer'
-        className={`relative px-4 py-2 text-base text-gray-800 transition-colors duration-500 hover:text-indigo-100 ${
+        className={`relative px-3 lg:px-4  py-2 text-sm lg:text-base text-gray-800 transition-colors duration-500 hover:text-indigo-100 ${
           isGH
             ? 'bg-blue-500 hover:bg-blue-600'
             : 'bg-purple-500 hover:bg-purple-600'

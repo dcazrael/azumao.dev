@@ -8,7 +8,7 @@ const LinkButton = ({
   return (
     <div className={`z-10 relative ${className}`}>
       <a
-        className={`group relative w-full h-full inline-flex box-border transition-colors duration-500 items-center px-8 pt-3 pb-1 font-bold text-center text-white ${
+        className={`group relative w-full h-full inline-flex box-border transition-colors duration-500 items-center px-4 md:px-8 pt-3 pb-1 font-semibold md:font-bold text-center text-white ${
           !bgColor
             ? `${borderColor} border-2 hover:bg-purple-700 hover:text-indigo-100`
             : `${bgColor} hover:bg-indigo-100 hover:text-purple-700 hover:border-purple-700 `

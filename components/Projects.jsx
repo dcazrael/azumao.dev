@@ -12,7 +12,7 @@ const Projects = () => {
           return (
             <div key={type}>
               <h3 className='mt-12 text-2xl capitalize'>{type}</h3>
-              <div className='grid grid-cols-3 gap-12 mt-6'>
+              <div className='grid gap-12 mt-6 md:grid-cols-2 xl:grid-cols-3'>
                 {status[type].map((project) => {
                   return (
                     <Card

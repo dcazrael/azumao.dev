@@ -35,8 +35,8 @@ const Contact = () => {
     });
   };
   return (
-    <div className='container flex items-center py-20 mx-auto space-x-32 text-gray-800 transition-colors duration-500 dark:text-gray-300'>
-      <div className='relative w-1/2'>
+    <div className='container flex flex-col items-center px-4 py-20 mx-auto space-y-8 text-gray-800 transition-colors duration-500 md:px-12 lg:space-y-0 lg:space-x-32 lg:flex-row dark:text-gray-300'>
+      <div className='relative w-full lg:w-1/2'>
         {emailSent && (
           <div className='absolute top-0 w-full px-8 py-2 font-bold text-center text-white transition-colors duration-500 bg-purple-700'>
             Email sent
@@ -46,7 +46,7 @@ const Contact = () => {
           <ContactUs className='w-full' />
         </figure>
       </div>
-      <div className='w-1/2 text-lg'>
+      <div className='w-full text-lg lg:w-1/2'>
         <h2 className='text-3xl italic font-medium font-expletus' id='contact'>
           Contact
         </h2>
@@ -99,7 +99,7 @@ const Contact = () => {
               className='w-full h-32 px-3 py-1 text-base leading-6 text-gray-800 transition-colors duration-500 ease-in-out bg-white border border-gray-300 outline-none resize-none focus:border-purple-700 focus:ring-2 focus:ring-indigo-200'
             ></textarea>
           </div>
-          <button className='box-border relative inline-flex items-center w-full h-full px-8 pt-3 pb-1 font-bold text-center text-white transition-colors duration-500 bg-purple-700 outline-none cursor-pointer group hover:bg-indigo-100 hover:text-purple-700 hover:border-purple-700 bg-none focus:outline-none'>
+          <button className='box-border relative inline-flex items-center w-full h-full px-4 pt-3 pb-1 font-semibold text-center text-white transition-colors duration-500 bg-purple-700 outline-none cursor-pointer sm:px-8 lg:font-bold group hover:bg-indigo-100 hover:text-purple-700 hover:border-purple-700 bg-none focus:outline-none'>
             <span className='relative -top-0.5 z-20 w-full block'>
               Connect with me
             </span>

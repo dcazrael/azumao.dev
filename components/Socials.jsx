@@ -1,6 +1,6 @@
-const Socials = () => {
+const Socials = ({ className }) => {
   return (
-    <div className='flex justify-between space-x-4'>
+    <div className={`${className}`}>
       <a
         href='https://www.linkedin.com/in/michael-sachdev/'
         target='_blank'

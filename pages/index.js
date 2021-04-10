@@ -14,7 +14,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.png' />
       </Head>
       <Navbar />
-      <header className='w-full bg-cover bg-hero-backdrop min-h-120'>
+      <header className='w-full xl:bg-cover bg-hero-backdrop min-h-110 xl:min-h-120'>
         <Hero />
       </header>
 

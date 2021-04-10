@@ -2,21 +2,28 @@ import LinkButton from './LinkButton';
 
 const Hero = () => {
   return (
-    <div className='container flex pt-32 mx-auto' id='home'>
-      <div className='ml-auto text-indigo-100'>
-        <div className='text-6xl font-expletus'>Let's build your</div>
-        <div className='text-6xl font-expletus'>amazing project</div>
+    <div
+      className='container flex px-4 pt-24 mx-auto md:pt-32 md:px-12'
+      id='home'
+    >
+      <div className='w-full text-indigo-100 md:w-auto md:ml-auto'>
+        <div className='text-3xl sm:text-4xl md:text-6xl font-expletus'>
+          Let's build your
+        </div>
+        <div className='text-3xl sm:text-4xl md:text-6xl font-expletus'>
+          amazing project
+        </div>
         <div className='flex justify-between mt-6'>
           <LinkButton
             bgColor='bg-purple-700'
-            className='text-2xl font-semibold'
+            className='text-lg sm:text-xl'
             href='#contact'
           >
             Contact me
           </LinkButton>
           <LinkButton
             borderColor='border-purple-700'
-            className='text-2xl font-semibold'
+            className='text-lg sm:text-xl'
             href='#portfolio'
           >
             Portfolio

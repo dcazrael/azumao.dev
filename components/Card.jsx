@@ -11,16 +11,16 @@ const Card = ({ children, title, image, github, link, tech, api }) => {
             alt={title}
           />
         </figure>
-        <div className='relative z-20 flex-grow p-8 text-indigo-100 transition-opacity duration-500 bg-black opacity-0 bg-opacity-70 hover:opacity-100'>
+        <div className='relative z-20 flex-grow p-4 text-indigo-100 transition-opacity duration-500 bg-black opacity-0 sm:p-8 bg-opacity-70 hover:opacity-100'>
           {children}
         </div>
-        <div className='absolute inset-x-0 z-30 flex justify-between px-8 bottom-4 justify-self-end'>
+        <div className='absolute inset-x-0 z-30 flex justify-between px-4 sm:px-8 bottom-4 justify-self-end'>
           <ShadowButton link={`https://github.com/dcazrael/${github}`} github />
           {link && <ShadowButton link={link} />}
         </div>
       </div>
-      <div className='flex flex-col justify-between flex-grow p-8'>
-        <h4 className='text-2xl'>{title}</h4>
+      <div className='flex flex-col justify-between flex-grow p-4 sm:p-8'>
+        <h4 className='text-xl lg:text-2xl'>{title}</h4>
         {api.length > 0 && (
           <div className='flex mt-6 space-x-2'>
             <p>API:</p>
@@ -37,7 +37,7 @@ const Card = ({ children, title, image, github, link, tech, api }) => {
                     src={`/images/icons/${name}.svg`}
                     alt={name}
                     title={name}
-                    className='w-auto h-12'
+                    className='w-auto h-8 md:h-12'
                   />
                 </figure>
               );

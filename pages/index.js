@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className='font-montserrat'>
       <Head>
-        <title>Azumao.dev - Let's buld something amazing!</title>
+        <title>Azumao.dev - Let's build something amazing!</title>
         <link rel='icon' href='/favicon.png' />
       </Head>
       <Navbar />

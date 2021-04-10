@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 const SENDGRID_API = 'https://api.sendgrid.com/v3/mail/send';
 const SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
 
-const sendEmail = async ({ name, email, message }) => {
+const sendEmail = async ({ email, message }) => {
   await fetch(SENDGRID_API, {
     method: 'POST',
     headers: {
@@ -11,19 +11,24 @@ const sendEmail = async ({ name, email, message }) => {
       Authorization: `Bearer ${SENDGRID_API_KEY}`,
     },
     body: JSON.stringify({
-      personalization: [
+      personalizations: [
         {
           to: [
             {
               email: 'me@azumao.dev',
             },
           ],
-          subject: 'Contact from azumao.dev',
+          bcc: [
+            {
+              email,
+            },
+          ],
+          subject: `Contact from ${email}`,
         },
       ],
       from: {
-        email,
-        name,
+        email: 'contact@azumao.dev',
+        name: 'Contact request',
       },
       content: [
         {

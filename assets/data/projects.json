@@ -93,7 +93,7 @@
         "image": "autohotkey-libraries",
         "github": "autohotkey_libraries",
         "live": "",
-        "tech": ["autohotkey"],
+        "tech": ["Autohotkey"],
         "api": []
       }
     ]

@@ -2,8 +2,8 @@ import { sendEmail } from '../../utils/sendEmail';
 
 export default async (req, res) => {
   if (req.method === 'POST') {
-    const { name, email, message } = req.body;
-    await sendEmail({ name, email, message });
+    const { email, message } = req.body;
+    await sendEmail({ email, message });
     return res.status(200).end();
   }
   return res.status(404).json({

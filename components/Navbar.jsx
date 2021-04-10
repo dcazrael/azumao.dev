@@ -40,7 +40,7 @@ const Navbar = () => {
           </Link>
         </nav>
         <Socials />
-        <DarkModeToggle className='w-10 h-10 ml-8 text-gray-800 text-indigo-100 cursor-pointer' />
+        <DarkModeToggle className='w-10 h-10 ml-8 text-indigo-100 cursor-pointer' />
       </div>
     </div>
   );

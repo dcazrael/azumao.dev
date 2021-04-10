@@ -5,18 +5,18 @@ const Projects = () => {
   const projects = ProjectData;
 
   return (
-    <div>
+    <>
       {projects &&
         projects.map((status) => {
           const type = Object.keys(status)[0];
-
           return (
-            <>
+            <div key={type}>
               <h3 className='mt-12 text-2xl capitalize'>{type}</h3>
-              <div className='grid grid-cols-3 gap-12 mt-6' key={type}>
+              <div className='grid grid-cols-3 gap-12 mt-6'>
                 {status[type].map((project) => {
                   return (
                     <Card
+                      key={project.name}
                       title={project.name}
                       image={project.image}
                       github={project.github}
@@ -33,10 +33,10 @@ const Projects = () => {
                   );
                 })}
               </div>
-            </>
+            </div>
           );
         })}
-    </div>
+    </>
   );
 };
 

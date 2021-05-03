@@ -46,7 +46,7 @@
         "image": "svg-paths",
         "github": "SVGPath",
         "live": "https://www.npmjs.com/package/svg-paths",
-        "tech": ["Javascript"],
+        "tech": ["JavaScript"],
         "api": []
       },
       {

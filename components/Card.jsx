@@ -6,7 +6,7 @@ const Card = ({ children, title, image, github, link, tech, api }) => {
       <div className='relative flex flex-col w-full h-56'>
         <figure className='absolute inset-0 z-10'>
           <img
-            src={`/images/${image}.png`}
+            src={`/images/${image}${image === 'placeholder' ? '.png' : '.jpg'}`}
             className='object-cover w-full h-full'
             alt={title}
           />

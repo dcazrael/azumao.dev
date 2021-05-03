@@ -2,6 +2,19 @@
   {
     "working on": [
       {
+        "name": " Svg wave clip paths",
+        "highlights": [
+          "responsive wave clip paths",
+          "adjustable wave generation",
+          "svg colored wave generation"
+        ],
+        "image": "wave-clip-svg",
+        "github": "waveClipSVG",
+        "live": "",
+        "tech": ["JavaScript", "HTML5", "React", "TailwindCSS"],
+        "api": []
+      },
+      {
         "name": "Into the Abyss - Dungeon crawler",
         "highlights": [
           "2D Graphics",
@@ -13,11 +26,29 @@
         "live": "",
         "tech": ["JavaScript", "HTML5", "React", "TailwindCSS"],
         "api": ["Phaser.js"]
+      },
+      {
+        "name": "Azumao.dev - personal website",
+        "highlights": ["responsive design", "dark mode"],
+        "image": "azumao-dev",
+        "github": "azumao.dev",
+        "live": "https://azumao.dev",
+        "tech": ["JavaScript", "HTML5", "Nextjs", "TailwindCSS"],
+        "api": ["Sendgrid"]
       }
     ]
   },
   {
     "completed": [
+      {
+        "name": "SVG Paths - utilities to generate svg paths",
+        "highlights": ["Generate SVG paths via commands", "easy to use"],
+        "image": "svg-paths",
+        "github": "SVGPath",
+        "live": "https://www.npmjs.com/package/svg-paths",
+        "tech": ["Javascript"],
+        "api": []
+      },
       {
         "name": "Nutrifoods - Know what you eat",
         "highlights": [

@@ -5,7 +5,7 @@ const About = () => {
     <div className='container flex flex-col items-center px-4 pt-8 pb-20 mx-auto space-y-8 text-gray-800 transition-colors duration-500 md:px-12 lg:space-y-0 lg:space-x-32 lg:flex-row dark:text-gray-300'>
       <div className='w-full text-lg lg:w-1/2'>
         <h2 className='text-3xl italic font-medium font-expletus' id='about'>
-          Tell me about your new idea
+          Talk to me about your new project
         </h2>
         <p className='mt-6'>
           While most of my experience is in Frontend Development, I have

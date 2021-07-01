@@ -10,7 +10,7 @@
         ],
         "image": "wave-clip-svg",
         "github": "waveClipSVG",
-        "live": "",
+        "live": "https://wave-clip-svg.vercel.app/",
         "tech": ["JavaScript", "HTML5", "React", "TailwindCSS"],
         "api": []
       },

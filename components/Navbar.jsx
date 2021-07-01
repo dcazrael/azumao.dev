@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { DarkModeToggle } from 'tailwind-darkmode-toggle';
 import Logo from '../assets/images/azumao_logo.svg';
 import Hamburger from '../assets/images/hamburger.svg';
-import useScrollPosition from './hooks/useScrollPosition';
+import useScrollPosition from '../hooks/useScrollPosition';
 import Socials from './Socials';
 
 const Navbar = () => {
